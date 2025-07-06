@@ -4,6 +4,13 @@ A modern, responsive currency converter built with React and Tailwind CSS. Insta
 
 ---
 
+<!-- Live Demo Link Placeholder -->
+## 🌐 Live Demo
+
+[View Live Demo](#) <!-- TODO: Add your deployment URL here -->
+
+---
+
 ## 🚀 Quick Start
 
 1. **Clone & Install**
