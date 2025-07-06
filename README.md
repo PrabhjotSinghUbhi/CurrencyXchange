@@ -5,6 +5,7 @@ A modern, responsive currency converter built with React and Tailwind CSS. Insta
 ---
 
 <!-- Live Demo Link Placeholder -->
+
 ## 🌐 Live Demo
 
 [View Live Demo](#) <!-- TODO: Add your deployment URL here -->
@@ -14,6 +15,7 @@ A modern, responsive currency converter built with React and Tailwind CSS. Insta
 ## 🚀 Quick Start
 
 1. **Clone & Install**
+
    ```bash
    git clone https://github.com/PrabhjotSinghUbhi/React-Projects.git
    cd React-Projects/Currency-Converter
