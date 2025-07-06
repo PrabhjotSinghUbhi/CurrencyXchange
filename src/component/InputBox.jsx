@@ -1,4 +1,3 @@
-import PropTypes from "prop-types";
 import Select from "react-select";
 
 function Template({
