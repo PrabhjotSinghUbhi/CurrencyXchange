@@ -1,74 +1,50 @@
 # 💱 Currency Converter
 
-A modern, responsive currency converter application built with React and Tailwind CSS. Convert between different currencies with real-time exchange rates and a beautiful, intuitive interface.
+A modern, responsive currency converter built with React and Tailwind CSS. Instantly convert between 180+ currencies with real-time rates and a sleek, accessible UI.
+
+---
+
+## 🚀 Quick Start
+
+1. **Clone & Install**
+   ```bash
+   git clone https://github.com/PrabhjotSinghUbhi/React-Projects.git
+   cd React-Projects/Currency-Converter
+   npm install
+   ```
+
+2. **Run Locally**
+   ```bash
+   npm run dev
+   ```
+   Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+---
 
 ## ✨ Features
 
-- **Real-time Exchange Rates**: Powered by ExchangeRate-API for accurate, up-to-date currency conversions
-- **180+ Currencies**: Support for major world currencies with country flags
-- **Responsive Design**: Optimized for desktop, tablet, and mobile devices
-- **Modern UI**: Beautiful gradient backgrounds, smooth animations, and glassmorphism effects
-- **Instant Conversion**: Real-time calculation as you type
-- **Currency Swap**: Quick swap between source and target currencies
-- **Custom Hooks**: Efficient state management with custom React hooks
-- **Accessible**: Built with accessibility best practices
+- **Live Exchange Rates** — Powered by ExchangeRate-API
+- **180+ Currencies** — With country flags
+- **Instant Conversion** — Updates as you type
+- **Currency Swap** — Quick reverse conversion
+- **Responsive Design** — Mobile-first, works everywhere
+- **Modern UI** — Gradients, glassmorphism, smooth animations
+- **Accessible** — Keyboard and screen reader friendly
 
-## 🚀 Live Demo
-
-[View Live Demo](https://your-demo-url.com) <!-- Add your deployment URL -->
-
-## 📸 Screenshots
-
-![Currency Converter Screenshot](./public/image.png) <!-- Add screenshot -->
+---
 
 ## 🛠️ Tech Stack
 
-- **React 19** - Modern React with hooks and functional components
-- **Vite** - Fast build tool and development server
-- **Tailwind CSS 4** - Utility-first CSS framework
-- **React Select** - Customizable select component for currency dropdown
-- **ExchangeRate-API** - Real-time currency exchange rate data
-- **ESLint** - Code linting and formatting
+- **React 19** (Hooks, functional components)
+- **Vite** (Fast dev/build)
+- **Tailwind CSS 4**
+- **React Select** (Custom dropdowns)
+- **ExchangeRate-API** (Currency data)
+- **ESLint** (Linting)
 
-## 📋 Prerequisites
+---
 
-Before running this project, make sure you have the following installed:
-
-- [Node.js](https://nodejs.org/) (version 16.0 or higher)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
-
-## 🔧 Installation & Setup
-
-1. **Clone the repository:**
-```bash
-git clone https://github.com/PrabhjotSinghUbhi/React-Projects.git
-cd React-Projects/Currency-Converter
-```
-
-2. **Install dependencies:**
-```bash
-npm install
-```
-
-3. **Start the development server:**
-```bash
-npm run dev
-```
-
-4. **Open your browser and navigate to:**
-```
-http://localhost:5173
-```
-
-## 📖 Usage
-
-1. **Enter Amount**: Type the amount you want to convert in the "From" field
-2. **Select Currencies**: Choose source and target currencies from the dropdown menus
-3. **Instant Conversion**: The converted amount appears automatically in the "To" field
-4. **Swap Currencies**: Click the swap button to quickly reverse the conversion
-5. **Get Latest Rates**: Click "Get Exchange Rate" to fetch the most recent rates
-
-## 🏗️ Project Structure
+## 📂 Project Structure
 
 ```
 Currency-Converter/
@@ -76,101 +52,83 @@ Currency-Converter/
 │   └── index.html
 ├── src/
 │   ├── component/
-│   │   ├── InputBox.jsx          # Currency input component
-│   │   ├── SwapIconFit.jsx       # Swap button component
-│   │   ├── GithubIcon.jsx        # GitHub icon component
-│   │   └── index.js              # Component exports
+│   │   ├── InputBox.jsx
+│   │   ├── SwapIconFit.jsx
+│   │   ├── GithubIcon.jsx
+│   │   └── index.js
 │   ├── hooks/
-│   │   └── useCurrencyExchange.js # Custom hook for API calls
-│   ├── App.jsx                   # Main application component
-│   ├── main.jsx                  # Application entry point
-│   └── options.js                # Currency options data
+│   │   └── useCurrencyExchange.js
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── options.js
 ├── package.json
 ├── vite.config.js
 └── README.md
 ```
 
-## 🔧 Available Scripts
+---
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
+## 📸 Screenshots
 
-## 🌟 Key Components
-
-### InputBox Component
-- Handles currency input and selection
-- Custom styling with Tailwind CSS
-- Responsive design for all screen sizes
-
-### Custom Hook (useCurrencyExchange)
-- Fetches real-time exchange rates from ExchangeRate-API
-- Manages loading states and error handling
-- Optimized with useEffect and useState
-
-### Swap Functionality
-- Seamless currency swapping
-- Maintains converted amounts during swap
-- Smooth UI transitions
-
-## 🎨 Design Features
-
-- **Glassmorphism**: Modern glass-like card design
-- **Gradient Backgrounds**: Beautiful color transitions
-- **Smooth Animations**: Hover effects and transitions
-- **Mobile-First**: Responsive design approach
-- **Dark Theme**: Eye-friendly dark color scheme
-
-## 🔗 API Integration
-
-This project uses the [ExchangeRate-API](https://exchangerate-api.com/) for real-time currency conversion:
-
-- **Free Tier**: 1,500 requests per month
-- **Real-time Data**: Updated regularly
-- **Reliable**: 99.9% uptime guarantee
-
-## 🤝 Contributing
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👨‍💻 Author
-
-**Prabhjot Singh**
-- GitHub: [@PrabhjotSinghUbhi](https://github.com/PrabhjotSinghUbhi)
-- LinkedIn: [Prabhjot Singh](https://www.linkedin.com/in/prabhjot-singh-0a7780306)
-
-## 🙏 Acknowledgments
-
-- [ExchangeRate-API](https://exchangerate-api.com/) for providing reliable exchange rate data
-- [React](https://reactjs.org/) team for the amazing framework
-- [Tailwind CSS](https://tailwindcss.com/) for the utility-first CSS framework
-- [Vite](https://vitejs.dev/) for the fast build tool
-
-## 🐛 Known Issues
-
-- Exchange rates are cached for performance (updates every API call)
-- Some minor currencies might not have real-time data
-
-## 🔮 Future Enhancements
-
-- [ ] Historical exchange rate charts
-- [ ] Offline mode with cached rates
-- [ ] More currency conversion tools
-- [ ] Dark/Light theme toggle
-- [ ] Currency rate alerts
-- [ ] Multiple currency comparison
+![App Screenshot](./public/image.png)
 
 ---
 
-⭐ **Star this repository if you find it helpful!**
+## 📝 Usage
 
-Made with ❤️ by [Prabhjot Singh](https://github.com/PrabhjotSinghUbhi)
+1. Enter an amount in the "From" field.
+2. Select source and target currencies.
+3. View instant conversion in the "To" field.
+4. Use the swap button to reverse currencies.
+5. Click "Get Exchange Rate" for the latest rates.
+
+---
+
+## 🔗 API
+
+- Uses [ExchangeRate-API](https://exchangerate-api.com/) (Free tier: 1,500 requests/month)
+
+---
+
+## 🧩 Scripts
+
+- `npm run dev` — Start dev server
+- `npm run build` — Production build
+- `npm run preview` — Preview build
+- `npm run lint` — Lint code
+
+---
+
+## 🤝 Contributing
+
+1. Fork this repo
+2. Create a branch: `git checkout -b feature/YourFeature`
+3. Commit: `git commit -m "Add feature"`
+4. Push: `git push origin feature/YourFeature`
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+MIT — see [LICENSE](LICENSE)
+
+---
+
+## 👤 Author
+
+**Prabhjot Singh**  
+[GitHub](https://github.com/PrabhjotSinghUbhi) | [LinkedIn](https://www.linkedin.com/in/prabhjot-singh-0a7780306)
+
+---
+
+## 🙏 Acknowledgments
+
+- [ExchangeRate-API](https://exchangerate-api.com/)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Vite](https://vitejs.dev/)
+
+---
+
+⭐️ Star this repo if you found it useful!
